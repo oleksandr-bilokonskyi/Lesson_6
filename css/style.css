@@ -25,7 +25,6 @@ body {
 .page__image {
    max-width: 100%;
    margin-bottom: 60px;
-
 }
 
 .page__main-text {
@@ -60,4 +59,265 @@ body {
 .page__text li {
    margin-bottom: 4px;
    padding-left: 32px;
+}
+
+/*Експериментуємо*/
+
+.block {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+   color: red;
+   background-color: #d6caaa;
+   margin: 20px;
+   padding: 25px;
+}
+
+.block {
+   height: 120px;
+   overflow: scroll;
+}
+
+.block-1 {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+   color: blue;
+   background-color: #aaccd6;
+   margin: 20px;
+   padding: 15px;
+   max-width: 810px;
+   max-height: 50px;
+   overflow: hidden;
+}
+
+.block-2 {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+   color: green;
+   background-color: #b4d6aa;
+   margin: 20px;
+   padding: 15px;
+   max-width: 810px;
+   max-height: 200px;
+   overflow: auto;
+}
+
+.inline {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+   color: rgb(47, 36, 112);
+   background-color: #d2d6aa;
+   padding: 10px;
+   margin: 15px;
+   max-width: 810px;
+   display: block;
+}
+
+.inline-1 {
+   display: none;
+}
+
+.inline-2 {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+   color: rgb(112, 36, 78);
+   background-color: #d6bcaa;
+   padding: 10px;
+   margin: 15px;
+   max-width: 350px;
+   display: inline-block;
+}
+
+.image {
+   max-width: 400px;
+}
+
+.items {
+   font-size: 0;
+}
+
+.item {
+   font-weight: 700;
+   font-size: 100px;
+   line-height: 120%;
+   color: aliceblue;
+   background-color: rgb(204, 83, 83);
+   width: 100px;
+   display: inline-block;
+   text-align: center;
+   padding: 10px;
+   margin: 0 50px 20px 0;
+}
+
+.link {
+   font-weight: 700;
+   font-size: 60px;
+   line-height: 120%;
+   color: aliceblue;
+   background-color: rgb(93, 107, 121);
+   padding: 10px;
+   margin: 0 30px 20px 0;
+   display: inline-block;
+}
+
+/* CSS-властивості оформлення блоків */
+
+.block-3 {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 120%;
+   color: rgb(118, 161, 199);
+   background-color: rgb(201, 206, 157);
+   padding: 5px;
+   margin: 20px;
+   border: 1px solid #1E212C;
+}
+
+.block-4 {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 120%;
+   color: rgb(118, 161, 199);
+   background-color: rgb(201, 206, 157);
+   padding: 5px;
+   margin: 20px;
+   border: 30px solid rgb(201, 206, 157);
+}
+
+.block-4:hover {
+   border: 30px solid #1E212C;
+}
+
+.block-5 {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 120%;
+   color: rgb(118, 161, 199);
+   background-color: rgb(201, 206, 157);
+   padding: 5px;
+   margin: 20px;
+   border-top: 5px dotted red;
+   border-right: 6px dashed green;
+   border-bottom: 6px double black;
+   border-left: none;
+}
+
+.inline-3 {
+   font-size: 25px;
+   line-height: 180%;
+   color: aliceblue;
+   background-color: rgb(93, 107, 121);
+   border: 5px solid #000000;
+   border-left: none;
+   border-right: none;
+}
+
+.image-3 {
+   width: 500px;
+   border: 5px solid #1E212C;
+}
+
+.block-6 {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.2;
+   color: rgb(118, 161, 199);
+   background-color: rgb(201, 206, 157);
+   margin: 20px;
+   outline: none;
+}
+
+.block-6:hover {
+   outline: 10px solid #1E212C;
+}
+
+.link-1,
+.link-2,
+.link-3 {
+   font-weight: 700;
+   font-size: 40px;
+   color: rgb(0, 0, 0);
+   outline: 1px solid red;
+}
+
+.link-2:focus {
+   outline: 3px solid green;
+}
+
+.link-3:focus {
+   outline: 3px solid blue;
+}
+
+.block-7 {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.2;
+   color: rgb(64, 87, 23);
+   background-color: rgb(157, 180, 206);
+   margin: 20px;
+   padding: 10px;
+   border-radius: 20px;
+}
+
+.circle {
+   border-radius: 50%;
+   height: 100px;
+   width: 100px;
+   background-color: red;
+}
+
+.circle-1 {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.2;
+   border-radius: 50%;
+   height: 300px;
+   width: 300px;
+   background-color: rgb(115, 177, 177);
+   padding: 115px;
+   margin: 0 0 20px auto;
+   box-shadow: 5px 5px 5px black, inset 25px 25px 25px rgba(41, 9, 83, 0.445);
+}
+
+.block-8 {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.2;
+   color: rgb(36, 11, 105);
+   background-color: rgb(236, 234, 65);
+   margin-bottom: 50px;
+   padding: 10px;
+   border-radius: 20px;
+   box-shadow: -10px 15px 10px 10px red;
+}
+
+.block-9 {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.2;
+   color: rgb(36, 11, 105);
+   background-color: rgb(236, 234, 65);
+   margin-bottom: 50px;
+   padding: 10px;
+   border-radius: 20px;
+   box-shadow: -10px 15px 10px 10px red;
+   opacity: 0.5;
+}
+
+.circle-2 {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.2;
+   border-radius: 50%;
+   height: 300px;
+   width: 300px;
+   background-color: rgb(115, 177, 177);
+   padding: 115px;
+   margin: 0 0 20px auto;
+   box-shadow: 5px 5px 5px black, inset 25px 25px 25px rgba(41, 9, 83, 0.445);
+   visibility: hidden;
 }
